@@ -8,8 +8,9 @@ void printToN(int n)
 	}
 	else
 	{
+		cout << n << " "; //This is an example of head recursion
 		printToN(n - 1);
-		cout << n << " ";
+		cout << n << " "; //This is an example of tail recursion
 	}
 }
 int main()
